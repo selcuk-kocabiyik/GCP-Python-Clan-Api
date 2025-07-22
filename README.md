@@ -58,7 +58,7 @@ DELETE /clans/{id}
 `clans` tablosu:
 - id (UUID, primary key)
 - name (string, unique)
-- region (string, optional)
+- region (string)
 - created_at (timestamp)
 
 ## Proje Yapısı
